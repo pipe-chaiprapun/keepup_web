@@ -1,0 +1,70 @@
+.nav-link {
+    font-family: "Moon";
+}
+.font-moon {
+    font-family: "Moon";
+}
+.home-menu {
+    color: black;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px #ffffff;
+    font-size: large;
+    @media (min-width: 992px) {
+        font-weight: bold;
+        font-size: x-large;
+    }
+    @media (max-width: 575.98px) {
+        font-weight: bold;
+        font-size: 0.45rem;
+
+        padding: 0.1rem 0.1rem;
+    }
+}
+.home-menu:hover {
+    color: #ab0d0d !important;
+}
+.img-contact {
+    @media (min-width: 992px) {
+        width: 30%;
+    }
+    @media (max-width: 575.98px) {
+        width: 40%;
+    }
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    // background-color: #008cba;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 0.5s ease;
+}
+
+.container-item:hover .overlay {
+    height: 100%;
+    opacity: 1;
+    transition: 1s ease;
+    backface-visibility: hidden;
+    
+}
+.container-item .overlay {
+    height: 100%;
+    // transition: .5s ease;
+    // backface-visibility: hidden;
+    opacity: 0;
+}
+.container-item:hover .backdrop {
+    opacity: 0.2;
+    transition: 0.5s ease;
+    backface-visibility: hidden; 
+}

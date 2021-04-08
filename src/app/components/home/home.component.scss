@@ -1,0 +1,181 @@
+// .home-menu {
+//     // background-image: url('../assets/images/home/head_bg.jpg');
+//     background-image: url('../../../assets/images/home/head_bg.jpg');
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     text-align: center;
+//     width:100%
+//     // background-size: contain;
+//     // padding: 1rem;
+//     // img{
+//     //     width:60%;
+//     // }
+// }
+.nav-link {
+    font-family: "Moon";
+}
+.font-moon {
+    font-family: "Moon";
+}
+.home-menu {
+    color: black;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px #ffffff;
+    font-size: large;
+    @media (min-width: 992px) {
+        font-weight: bold;
+        font-size: x-large;
+    }
+    @media (max-width: 575.98px) {
+        font-weight: bold;
+        font-size: 0.5rem;
+
+        padding: 0.1rem 0.1rem;
+    }
+}
+.home-menu:hover {
+    color: #ab0d0d !important;
+}
+.text-1 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+}
+.title-1 {
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    @media (min-width: 992px) {
+        font-size: 5.5rem;
+    }
+    @media (max-width: 575.98px) {
+        font-size:2rem;
+    }
+}
+.title-2 {
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    @media (min-width: 992px) {
+        font-size: 4rem;
+    }
+    @media (max-width: 575.98px) {
+        font-size:1.5rem;
+    }
+}
+.title-3 {
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    @media (min-width: 992px) {
+        font-size: 3rem;
+    }
+    @media (max-width: 575.98px) {
+        font-size:1.5rem;
+    }
+}
+.title-4 {
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    @media (min-width: 992px) {
+        font-size: 2rem;
+    }
+    @media (max-width: 575.98px) {
+        font-size:1.0rem;
+    }
+}
+.slide-image {
+    // margin-left: auto;
+    // margin-right: auto;
+    width: 100%;
+    display: block;
+}
+.carousel {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg-2 {
+    // background-image: url('../assets/images/home/head_bg.jpg');
+    background-image: url("../../../assets/images/home/bg2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+    // padding: 1rem;
+    // img{
+    //     width:60%;
+    // }
+}
+.bg-3 {
+    background-image: url("../../../assets/images/orderStep/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+}
+.bg-order {
+    background-image: url("../../../assets/images/orderStep/bg_step.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-size: contain;
+    padding: 20%;
+}
+.order-detail {
+    text-align: initial;
+    @media (min-width: 992px) {
+        font-size: x-large;
+        line-height: 1.5rem;
+    }
+    @media (max-width: 575.98px) {
+        font-size: 12px;
+        line-height: 1rem;
+    }
+}
+.img-figure {
+    margin-top: -10%;
+    @media (min-width: 992px) {
+        font-weight: bold;
+        font-size: xxx-large;
+    }
+    @media (max-width: 575.98px) {
+        font-weight: bold;
+        font-size: 0.6rem;
+    }
+}
+.bg-red {
+    background-color: #8b0d18;
+}
+.img-contact {
+    @media (min-width: 992px) {
+        width: 30%;
+    }
+    @media (max-width: 575.98px) {
+        width: 40%;
+    }
+}
+.product-choose {
+    background-image: url("../../../assets/images/home/productChoose/border.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-size: contain;
+    padding: 15%;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bg-banner {
+    background-image: url("../../../assets/images/home/banner/bg2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-size: contain;
+    // padding: 15%;
+}
