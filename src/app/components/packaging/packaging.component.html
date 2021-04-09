@@ -1,9 +1,11 @@
 <!-- <div class='container'> -->
-<div class='col-md-12'>
+<app-navbar></app-navbar>
+<div id='content' class='col-md-12'>
   <div class='row justify-content-center'>
     <div class='col-md-12 col-lg-12 col-xl-12 px-0'>
-      <img src="../../../assets/images/home/trademark.png" style="position: absolute;left:7%;top:10%;width:25%">
-      <ul class="nav" style="position: absolute;right: 3%;top:8%">
+      <img class='xl-menu' src="../../../assets/images/home/trademark.png"
+        style="position: absolute;left:7%;top:10%;width:25%">
+      <ul class="nav xl-menu" style="position: absolute;right: 3%;top:8%">
         <li class="nav-item">
           <a class="nav-link home-menu" [routerLink]="['/', 'home']" routerLinkActive="active">HOME</a>
         </li>
@@ -28,10 +30,12 @@
   </div>
   <div class='row justify-content-center'>
     <div class='col-md-12 col-lg-12 col-xl-12 text-center'>
-      <img class='d-block' src="../../../assets/images/packaging/title1.jpg"
-        style='width:40%;margin-left: auto;margin-right: auto;margin-top:1%;'>
-      <img class='d-block' src="../../../assets/images/packaging/title2.jpg"
-        style='width:60%;margin-left: auto;margin-right: auto;margin-bottom: 5%;'>
+      <!-- <img class='d-block' src="../../../assets/images/packaging/title1.jpg"
+        style='width:40%;margin-left: auto;margin-right: auto;margin-top:1%;'> -->
+        <h1 class='title-2 mt-4'>ภาพรวมบรรจุภัณฑ์</h1>
+      <!-- <img class='d-block' src="../../../assets/images/packaging/title2.jpg"
+        style='width:60%;margin-left: auto;margin-right: auto;margin-bottom: 5%;'> -->
+        <h1 class='title-3 font-weight-normal'>ลูกค้าสามารถเลือกชมบรรจุภัณฑ์เบื้องต้นได้เลยจ้า</h1>
       <div class='row justify-content-center'>
         <div class='col-md-4 col-lg-4 col-xl-4 text-center'>
           <div class="container-item">
@@ -85,52 +89,21 @@
           </div>
         </div>
       </div>
-      <img class='image' src="../../../assets/images/packaging/footer.jpg"
-        style='width:40%;margin-left: auto;margin-right: auto;margin-top:3%;margin-bottom: 3%;'>
+      <h1 class='title-3 mt-4 font-weight-normal'>ลูกค้าสามารถเลือกรูปบรรจุภัณฑ์</h1>
+      <h1 class='title-4 mb-4 font-weight-normal'>แล้วทักเข้ามาสอบถามรายละเอียดราคาทางไลน์ได้เลยจ้า</h1>
+      <!-- <img class='image' src="../../../assets/images/packaging/footer.jpg"
+        style='width:40%;margin-left: auto;margin-right: auto;margin-top:3%;margin-bottom: 3%;'> -->
     </div>
   </div>
-  <div class='row justify-content-center'>
+  <app-contact-line></app-contact-line>
+  <!-- <div class='row justify-content-center'>
     <div class='col-md-12 col-lg-12 col-xl-12 text-center' style='background-color: #860101;'>
       <p class='mb-0' style='padding: 2% 0% 1% 0%;'>
         <img class='img-contact' src="../../../assets/images/contact/text2.png">
         <img class='img-contact btn' src="../../../assets/images/contact/btn3.png">
       </p>
     </div>
-  </div>
-  <div class='row justify-content-center'>
-    <div class='col-md-12 col-lg-12 col-xl-12 text-center' style='padding-top: 2%;'>
-      <div class='row justify-content-around'>
-        <div class='col-md-3 col-lg-3 col-xl-3'>
-          <img class='d-block w-100' src="../../../assets/images/aboutus/title1.jpg">
-          <br>
-          <img class='d-block w-100' src="../../../assets/images/aboutus/detail1.jpg">
-          <img class='d-block w-100' src="../../../assets/images/aboutus/detail2.jpg">
-          <img class='d-block w-100' src="../../../assets/images/aboutus/detail3.jpg">
-        </div>
-        <div class='col-md-3 col-lg-3 col-xl-3'>
-          <img class='d-block w-100' src="../../../assets/images/aboutus/title2.jpg">
-          <br>
-          <ul class='text-left' style="font-size: xx-large;">
-            <li>รวมบรรจุภัณฑ์</li>
-            <li>ขวดเซรั่ม</li>
-            <li>หลอดครีม</li>
-            <li>กระปุกครีม</li>
-            <li>ตลับแป้ง</li>
-            <li>ลิป</li>
-            <li>กล่อง</li>
-            <li>กราฟิกดีไซน์</li>
-            <li>บริการดูแลแฟนเฟจเฟสบุ็ค</li>
-            <li>ผลงาน</li>
-          </ul>
-        </div>
-        <div class='col-md-3 col-lg-3 col-xl-3'>
-          <img class='d-block w-100' src="../../../assets/images/aboutus/title3.jpg">
-          <br>
-          <img class='d-block w-100' src="../../../assets/images/aboutus/detail4.jpg">
-        </div>
-        <img class='d-block w-50 mx-auto mb-4 mt-2' src="../../../assets/images/aboutus/footer.jpg">
-      </div>
-    </div>
-  </div>
+  </div> -->
+  <app-footer></app-footer>
 </div>
 <!-- </div> -->

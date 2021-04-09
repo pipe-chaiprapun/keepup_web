@@ -1,0 +1,15 @@
+.copy-right {
+    font-weight: bold;
+    @media (min-width: 992px) {
+        font-size: x-large;
+    }
+    @media (max-width: 575.98px) {
+        font-size: 0.7rem;
+    }
+    color: black;
+    margin: 0;
+    text-align: center;
+    .contact-link {
+        color: #00b7ff;
+    }
+}

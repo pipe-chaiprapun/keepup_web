@@ -1,0 +1,8 @@
+// .nav-link {
+//     font-family: "Moon";
+// }
+.navbar {
+    @media (min-width: 992px) {
+        display: none;
+    }
+}

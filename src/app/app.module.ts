@@ -9,6 +9,9 @@ import { DesignComponent } from './components/design/design.component';
 import { MarketingComponent } from './components/marketing/marketing.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { FooterComponent } from './components/share/footer/footer.component';
+import { NavbarComponent } from './components/share/navbar/navbar.component';
+import { ContactLineComponent } from './components/share/contact-line/contact-line.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { ContactComponent } from './components/contact/contact.component';
     DesignComponent,
     MarketingComponent,
     PortfolioComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent,
+    NavbarComponent,
+    ContactLineComponent
   ],
   imports: [
     BrowserModule,

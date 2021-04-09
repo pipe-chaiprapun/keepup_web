@@ -4,36 +4,108 @@
 .font-moon {
     font-family: "Moon";
 }
+.xl-menu {
+    @media (max-width: 992px) {
+        display: none;
+    }
+}
+.navbar {
+    @media (min-width: 992px) {
+        display: none;
+    }
+}
 .home-menu {
     color: black;
     font-weight: bold;
     text-shadow: 0px 0px 5px #ffffff;
     font-size: large;
-    @media (min-width: 992px) {
+    @media (min-width: 1200px) {
         font-weight: bold;
         font-size: x-large;
     }
+    @media (min-width: 992px) {
+        font-weight: bold;
+        font-size: larger;
+    }
     @media (max-width: 575.98px) {
         font-weight: bold;
-        font-size: 0.45rem;
+        font-size: 0.5rem;
 
         padding: 0.1rem 0.1rem;
+    }
+}
+#content {
+    @media (max-width: 992px) {
+        height: 90vh;
+        overflow-y: auto;
     }
 }
 .home-menu:hover {
     color: #ab0d0d !important;
 }
-.img-contact {
-    @media (min-width: 992px) {
-        width: 30%;
-    }
-    @media (max-width: 575.98px) {
-        width: 40%;
-    }
-}
-
 .image {
     display: block;
     width: 100%;
     height: auto;
+}
+.title-1 {
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    @media (min-width: 992px) {
+        font-size: 5.5rem;
+    }
+    @media (max-width: 575.98px) {
+        font-size: 2rem;
+    }
+}
+.title-2 {
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    @media (min-width: 992px) {
+        font-size: 4rem;
+    }
+    @media (max-width: 575.98px) {
+        font-size: 1.5rem;
+    }
+}
+.title-3 {
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    @media (min-width: 992px) {
+        font-size: 3rem;
+    }
+    @media (max-width: 575.98px) {
+        font-size: 1.5rem;
+    }
+}
+.title-4 {
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    @media (min-width: 992px) {
+        font-size: 2rem;
+    }
+    @media (max-width: 575.98px) {
+        font-size: 1rem;
+    }
+}
+.title-5 {
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    @media (min-width: 992px) {
+        font-size: 2rem;
+    }
+    @media (max-width: 575.98px) {
+        font-size: 0.7rem;
+    }
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

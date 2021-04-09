@@ -1,9 +1,42 @@
 <!-- <div class='container'> -->
-<div class='col-md-12'>
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="../../../assets/images/home/trademark.png" alt="" style='width: 120px;'>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" [routerLink]="['/', 'home']" routerLinkActive="active">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/', 'packaging']" routerLinkActive="active">PACKAGING</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/', 'design']" routerLinkActive="active">DESIGN</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/', 'design']" routerLinkActive="active">MARKETING</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">PORTFOLIO</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CONTACT</a>
+      </li>
+    </ul>
+  </div>
+</nav> -->
+<app-navbar></app-navbar>
+<div id='content' class='col-md-12'>
   <div class='row justify-content-center'>
     <div class='col-md-12 col-lg-12 col-xl-12 px-0'>
-      <img src="../../../assets/images/home/trademark.png" style="position: absolute;left:7%;top:10%;width:25%">
-      <ul class="nav" style="position: absolute;right: 3%;top:8%">
+      <img class='xl-menu' src="../../../assets/images/home/trademark.png"
+        style="position: absolute;left:7%;top:10%;width:25%">
+      <ul class="nav xl-menu" style="position: absolute;right: 3%;top:8%">
         <li class="nav-item">
           <a class="nav-link home-menu" [routerLink]="['/', 'home']" routerLinkActive="active">HOME</a>
         </li>
@@ -28,15 +61,18 @@
   </div>
   <div class='row justify-content-center'>
     <div class='col-md-12 col-lg-12 col-xl-12 text-center'>
-      <img class='d-block' src="../../../assets/images/design/title1.jpg"
-        style='width:40%;margin-left: auto;margin-right: auto;margin-top:1%;'>
-      <img class='d-block' src="../../../assets/images/design/title2.jpg"
-        style='width:60%;margin-left: auto;margin-right: auto;margin-bottom: 5%;'>
+      <!-- <img class='d-block' src="../../../assets/images/design/title1.jpg"
+        style='width:40%;margin-left: auto;margin-right: auto;margin-top:1%;'> -->
+      <h1 class='title-2 mt-4'>ตัวอย่างภาพแบนเนอร์</h1>
+      <h2 class='title-3 font-weight-normal mb-4'>เชิญลูกค้ารับชมภาพกราฟิกสวย ๆ กันได้เลยจ้า</h2>
+      <!-- <img class='d-block' src="../../../assets/images/design/title2.jpg"
+        style='width:60%;margin-left: auto;margin-right: auto;margin-bottom: 5%;'> -->
     </div>
   </div>
   <div class='row justify-content-center'>
     <div class='col-md-12 col-lg-12 col-xl-12 text-center' style='background-color: #C40000;'>
-      <img class='image w-50 mx-auto' src="../../../assets/images/design/title3.png">
+      <h1 class='title-2 text-light my-3'>ภาพหลักร้อย สร้างยอดขายหลักร้าน</h1>
+      <!-- <img class='image w-50 mx-auto' src="../../../assets/images/design/title3.png"> -->
     </div>
   </div>
   <div class='row justify-content-center'>
@@ -169,10 +205,111 @@
           <img class='image' src="../../../assets/images/design/example/example84.jpg">
         </div>
       </div>
+      <br>
+      <br>
+      <img class='image mx-auto' src="../../../assets/images/design/title4.jpg" style='width:40%'>
+      <img class='image mx-auto' src="../../../assets/images/design/title5.jpg" style='width:50%'>
+      <img class='image mx-auto' src="../../../assets/images/design/title6.jpg" style='width:40%'>
+      <br>
+      <div class='row justify-content-center'>
+        <div class='col-md-ุ10 col-lg-10 col-xl-10 col-10 mb-4'>
+          <img class='w-100' src="../../../assets/images/design/price/bg.jpg">
+          <div class='centered container'>
+            <div class='row justify-content-center'>
+              <div class='col-md-6 col-lg-6 col-xl-6 col-6 pr-0 text-center'>
+                <img class='w-100' src="../../../assets/images/design/price/item1.png">
+              </div>
+              <div class='col-md-4 col-lg-4 col-xl-4 col-4 pl-0 text-center'>
+                <img class='image' src="../../../assets/images/design/price/title1.png">
+                <img class='image' src="../../../assets/images/design/price/detail1.png">
+                <img class='image btn' src="../../../assets/images/design/price/btn1.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='col-md-ุ10 col-lg-10 col-xl-10 col-10 mb-4'>
+          <img class='w-100' src="../../../assets/images/design/price/bg.jpg">
+          <div class='centered container'>
+            <div class='row justify-content-center'>
+              <div class='col-md-6 col-lg-6 col-xl-6 col-6 pr-0 text-center'>
+                <img class='w-100' src="../../../assets/images/design/price/item2.png">
+              </div>
+              <div class='col-md-4 col-lg-4 col-xl-4 col-4 pl-0 text-center'>
+                <img class='image' src="../../../assets/images/design/price/title2.png" style='width:60%'>
+                <img class='image' src="../../../assets/images/design/price/detail2.png">
+                <img class='image btn' src="../../../assets/images/design/price/btn1.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='col-md-ุ10 col-lg-10 col-xl-10 col-10 mb-4'>
+          <img class='w-100' src="../../../assets/images/design/price/bg.jpg">
+          <div class='centered container'>
+            <div class='row justify-content-center'>
+              <div class='col-md-6 col-lg-6 col-xl-6 col-6 pr-0 text-center'>
+                <img class='w-100' src="../../../assets/images/design/price/item3.png">
+              </div>
+              <div class='col-md-4 col-lg-4 col-xl-4 col-4 pl-0 text-center'>
+                <img class='image' src="../../../assets/images/design/price/title3.png" style="width: 60%;">
+                <img class='image' src="../../../assets/images/design/price/detail3.png">
+                <img class='image btn' src="../../../assets/images/design/price/btn1.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='col-md-ุ10 col-lg-10 col-xl-10 col-10 mb-4'>
+          <img class='w-100' src="../../../assets/images/design/price/bg.jpg">
+          <div class='centered container'>
+            <div class='row justify-content-center'>
+              <div class='col-md-6 col-lg-6 col-xl-6 col-6 pr-0 text-center'>
+                <img class='w-100' src="../../../assets/images/design/price/item4.png">
+              </div>
+              <div class='col-md-4 col-lg-4 col-xl-4 col-4 pl-0 text-center'>
+                <img class='image' src="../../../assets/images/design/price/title4.png">
+                <img class='image' src="../../../assets/images/design/price/detail4.png">
+                <img class='image btn' src="../../../assets/images/design/price/btn1.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='col-md-ุ10 col-lg-10 col-xl-10 col-10'>
+          <img class='w-100' src="../../../assets/images/design/rec.jpg">
+          <div class='centered container font-weight-bold' style='color:#C20000'>
+            <h1 class='title-5 mb-0'>ลูกค้าสามารถเลือกแพ็คเกจ</h1>
+            <h1 class='title-5 mb-0'>ในการสร้างภาพโฆษณากราฟิกสวยๆ เพื่อเพิ่มยอดขายให้แบรนด์ของลูกค้า</h1>
+          </div>
+        </div>
+        <h1 class='text-center mt-3 title-4'>สอบถามรายละเอียดเพิ่มเติม <span style='color:#04A116'>แอดไลน์</span> ได้เลยจ้า</h1>
+        <!-- <div class='col-md-10 col-lg-6 col-xl-6 col-10'>
+          <img class='w-100' src="../../../assets/images/home/productChoose/border.png">
+          <div class='centered container'>
+            <div class='row justify-content-center'>
+              <div class='col-md-12 col-lg-12 col-xl-12 col-10 text-center'>
+                <img src="../../../assets/images/home/productChoose/img2.jpg" style='width:60%'>
+              </div>
+            </div>
+            <div class='row justify-content-center'>
+              <div class='col-md-6 col-lg-6 col-xl-6 col-6 text-center'>
+                <h1 class='title-3 text-left font-weight-normal'>ผลิตหลอดขั้นต่ำ</h1>
+                <h2 class='title-3 text-left font-weight-normal'>3,000 ชิ้น</h2>
+                <h2 class='title-4 text-left font-weight-normal'>ผลิตได้ทุกรูปแบบ มีให้เลือกมากมาย
+                  เปลี่ยนได้ทุกสีตามใจคุณ</h2>
+              </div>
+              <div class='col-md-4 col-lg-4 col-xl-4 col-4 text-center'>
+                <img class='hvr-grow' src="../../../assets/images/home/productChoose/btn1.png"
+                  style='width:100%;margin-top:68%'>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+
     </div>
   </div>
+  <app-contact-line></app-contact-line>
   <!--------------------------------------------------------- Footer ---------------------------------------------------->
-  <div class='row justify-content-center'>
+  <app-footer></app-footer>
+  <!-- <div class='row justify-content-center'>
     <div class='col-md-12 col-lg-12 col-xl-12 text-center' style='padding-top: 2%;'>
       <div class='row justify-content-around'>
         <div class='col-md-3 col-lg-3 col-xl-3'>
@@ -206,6 +343,6 @@
         <img class='d-block w-50 mx-auto mb-4 mt-2' src="../../../assets/images/aboutus/footer.jpg">
       </div>
     </div>
-  </div>
+  </div> -->
 </div>
 <!-- </div> -->

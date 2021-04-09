@@ -1,0 +1,19 @@
+.img-contact {
+    @media (min-width: 992px) {
+        width: 30%;
+    }
+    @media (max-width: 575.98px) {
+        width: 40%;
+    }
+}
+.title-3 {
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    @media (min-width: 992px) {
+        font-size: 3rem;
+    }
+    @media (max-width: 575.98px) {
+        font-size: 1.5rem;
+    }
+}
