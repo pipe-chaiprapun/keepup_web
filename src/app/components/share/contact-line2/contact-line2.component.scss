@@ -1,0 +1,11 @@
+.img-contact {
+    @media (min-width: 992px) {
+        width: 30%;
+    }
+    @media (max-width: 575.98px) {
+        width: 40%;
+    }
+}
+.bg-red {
+    background-color: #8b0d18;
+}
