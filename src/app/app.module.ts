@@ -14,6 +14,7 @@ import { NavbarComponent } from './components/share/navbar/navbar.component';
 import { ContactLineComponent } from './components/share/contact-line/contact-line.component';
 import { SerumComponent } from './components/serum/serum.component';
 import { ContactLine2Component } from './components/share/contact-line2/contact-line2.component';
+import { TubeComponent } from './components/tube/tube.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ContactLine2Component } from './components/share/contact-line2/contact-
     NavbarComponent,
     ContactLineComponent,
     SerumComponent,
-    ContactLine2Component
+    ContactLine2Component,
+    TubeComponent
   ],
   imports: [
     BrowserModule,

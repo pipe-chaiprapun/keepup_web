@@ -5,6 +5,7 @@ import { HomeComponent } from './components/home/home.component';
 import { MarketingComponent } from './components/marketing/marketing.component';
 import { PackagingComponent } from './components/packaging/packaging.component';
 import { SerumComponent } from './components/serum/serum.component';
+import { TubeComponent } from './components/tube/tube.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -12,7 +13,8 @@ const routes: Routes = [
   { path: 'packaging', component: PackagingComponent },
   { path: 'design', component: DesignComponent },
   { path: 'marketing', component: MarketingComponent },
-  { path: 'serum', component: SerumComponent }
+  { path: 'serum', component: SerumComponent },
+  { path: 'tube', component: TubeComponent }
 ];
 
 @NgModule({
