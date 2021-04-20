@@ -17,6 +17,7 @@ import { ContactLine2Component } from './components/share/contact-line2/contact-
 import { TubeComponent } from './components/tube/tube.component';
 import { JarComponent } from './components/jar/jar.component';
 import { LipComponent } from './components/lip/lip.component';
+import { PowderComponent } from './components/powder/powder.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { LipComponent } from './components/lip/lip.component';
     ContactLine2Component,
     TubeComponent,
     JarComponent,
-    LipComponent
+    LipComponent,
+    PowderComponent
   ],
   imports: [
     BrowserModule,
