@@ -18,6 +18,7 @@ import { TubeComponent } from './components/tube/tube.component';
 import { JarComponent } from './components/jar/jar.component';
 import { LipComponent } from './components/lip/lip.component';
 import { PowderComponent } from './components/powder/powder.component';
+import { BoxComponent } from './components/box/box.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { PowderComponent } from './components/powder/powder.component';
     TubeComponent,
     JarComponent,
     LipComponent,
-    PowderComponent
+    PowderComponent,
+    BoxComponent
   ],
   imports: [
     BrowserModule,

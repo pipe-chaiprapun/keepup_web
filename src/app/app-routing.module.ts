@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { BoxComponent } from './components/box/box.component';
 import { DesignComponent } from './components/design/design.component';
 import { HomeComponent } from './components/home/home.component';
 import { JarComponent } from './components/jar/jar.component';
@@ -20,7 +21,8 @@ const routes: Routes = [
   { path: 'tube', component: TubeComponent },
   { path: 'jar', component: JarComponent },
   { path: 'lip', component: LipComponent },
-  { path: 'powder', component: PowderComponent}
+  { path: 'powder', component: PowderComponent },
+  { path: 'box', component: BoxComponent}
 ];
 
 @NgModule({
