@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { BoxComponent } from './components/box/box.component';
+import { ContactComponent } from './components/contact/contact.component';
 import { DesignComponent } from './components/design/design.component';
 import { HomeComponent } from './components/home/home.component';
 import { JarComponent } from './components/jar/jar.component';
@@ -24,7 +25,8 @@ const routes: Routes = [
   { path: 'lip', component: LipComponent },
   { path: 'powder', component: PowderComponent },
   { path: 'box', component: BoxComponent},
-  { path: 'portfolio', component: PortfolioComponent }
+  { path: 'portfolio', component: PortfolioComponent },
+  { path: 'contact', component: ContactComponent }
 ];
 
 @NgModule({

@@ -1,3 +1,72 @@
-<p>
-  contact works!
-</p>
+<app-navbar></app-navbar>
+<div id='content' class='col-md-12'>
+  <div class='row justify-content-center'>
+    <div class='col-md-12 col-lg-12 col-xl-12 px-0'>
+      <img class='xl-menu' src="../../../assets/images/home/trademark.png"
+        style="position: absolute;left:7%;top:10%;width:25%" alt="keep up packaging">
+      <ul class="nav xl-menu" style="position: absolute;right: 3%;top:8%">
+        <li class="nav-item">
+          <a class="nav-link home-menu" [routerLink]="['/', 'home']" routerLinkActive="active">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link home-menu" [routerLink]="['/', 'packaging']" routerLinkActive="active">PACKAGING</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link home-menu" [routerLink]="['/', 'design']" routerLinkActive="active">DESIGN</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link home-menu" [routerLink]="['/', 'marketing']" routerLinkActive="active">MARKETING</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link home-menu" [routerLink]="['/', 'portfolio']" routerLinkActive="active">PORTFOLIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link home-menu" [routerLink]="['/', 'contact']" routerLinkActive="active">CONTACT</a>
+        </li>
+      </ul>
+      <img class='w-100' src='../../../assets/images/contact/head_bg.jpg' alt="ผลิตบรรจุภัณฑ์เครื่องสำอาง">
+    </div>
+  </div>
+  <div class='row justify-content-center'>
+    <div class='col-md-12 col-lg-12 col-xl-12 text-center'>
+      <h1 class='title-2 mt-4'>ติดต่อสอบถามรายละเอียด</h1>
+      <h2 class='title-3 font-weight-normal mb-4'>ลูกค้าต้องการสอบถามข้อมูลทางด้านบรรจุภัณฑ์ติดต่อเลยจ้า</h2>
+    </div>
+  </div>
+  <div class='row justify-content-center'>
+    <div class='col-md-12 col-lg-12 col-xl-12 text-center py-3'>
+      <div class='row' style='justify-content: space-evenly'>
+        <div class='col-md-5 col-lg-5 col-xl-5 col-6 text-center'>
+          <img class='w-100' src="../../../assets/images/contact/logo.jpg">
+          <h2 class='title-2 font-weight-normal text-left'>บริษัท คีพ อัพ จำกัด เลขที่ 195 หมู่ 2 ต.ม่วงตึ๊ด อ.ภูเพียง
+            จ.น่าน
+            55000</h2>
+        </div>
+        <div class='col-md-5 col-lg-5 col-xl-5 col-6 text-center'>
+          <img class='w-100' src="../../../assets/images/contact/map.jpg">
+        </div>
+      </div>
+      <div class='row' style='justify-content: space-evenly'>
+        <div class='col-md-5 col-lg-5 col-xl-5 col-12 text-center py-4'>
+          <div class='contact-line mx-auto'>
+            <img class='w-50' src="../../../assets/images/contact/qr.jpg">
+            <h2 class='title-2 font-weight-normal mt-2' style='color:#7B0000'>LINE ID : @KEEP UP</h2>
+          </div>
+        </div>
+        <div class='col-md-5 col-lg-5 col-xl-5 col-12 py-4 text-center'>
+          <div class='row justify-content-center'>
+            <div class='col-md-4 col-lg-4 col-xl-4 col-6 text-center'><img class='w-100 pointer hvr-grow' src="../../../assets/images/contact/facebook.png"></div>
+            <div class='col-md-4 col-lg-4 col-xl-4 col-6 text-center'><img class='w-100 pointer hvr-grow' src="../../../assets/images/contact/line2.png"></div>
+            <div class='col-md-4 col-lg-4 col-xl-4 col-6 text-center'><img class='w-100 pointer hvr-grow' src="../../../assets/images/contact/ig.png"></div>
+            <div class='col-md-4 col-lg-4 col-xl-4 col-6 text-center'><img class='w-100 pointer hvr-grow' src="../../../assets/images/contact/line.png"></div>
+            <div class='col-md-4 col-lg-4 col-xl-4 col-6 text-center'><img class='w-100 pointer hvr-grow' src="../../../assets/images/contact/youtube.png"></div>
+            <div class='col-md-4 col-lg-4 col-xl-4 col-6 text-center'><img class='w-100 pointer hvr-grow' src="../../../assets/images/contact/call.png"></div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+    </div>
+  </div>
+  <app-contact-line></app-contact-line>
+  <app-footer></app-footer>
+</div>
