@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { DesignComponent } from './components/design/design.component';
 import { HomeComponent } from './components/home/home.component';
 import { JarComponent } from './components/jar/jar.component';
+import { LipComponent } from './components/lip/lip.component';
 import { MarketingComponent } from './components/marketing/marketing.component';
 import { PackagingComponent } from './components/packaging/packaging.component';
 import { SerumComponent } from './components/serum/serum.component';
@@ -16,7 +17,8 @@ const routes: Routes = [
   { path: 'marketing', component: MarketingComponent },
   { path: 'serum', component: SerumComponent },
   { path: 'tube', component: TubeComponent },
-  { path: 'jar', component: JarComponent }
+  { path: 'jar', component: JarComponent },
+  { path: 'lip', component: LipComponent}
 ];
 
 @NgModule({

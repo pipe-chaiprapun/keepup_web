@@ -16,6 +16,7 @@ import { SerumComponent } from './components/serum/serum.component';
 import { ContactLine2Component } from './components/share/contact-line2/contact-line2.component';
 import { TubeComponent } from './components/tube/tube.component';
 import { JarComponent } from './components/jar/jar.component';
+import { LipComponent } from './components/lip/lip.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { JarComponent } from './components/jar/jar.component';
     SerumComponent,
     ContactLine2Component,
     TubeComponent,
-    JarComponent
+    JarComponent,
+    LipComponent
   ],
   imports: [
     BrowserModule,
