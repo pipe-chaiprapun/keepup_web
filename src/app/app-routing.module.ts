@@ -7,6 +7,7 @@ import { JarComponent } from './components/jar/jar.component';
 import { LipComponent } from './components/lip/lip.component';
 import { MarketingComponent } from './components/marketing/marketing.component';
 import { PackagingComponent } from './components/packaging/packaging.component';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { PowderComponent } from './components/powder/powder.component';
 import { SerumComponent } from './components/serum/serum.component';
 import { TubeComponent } from './components/tube/tube.component';
@@ -22,7 +23,8 @@ const routes: Routes = [
   { path: 'jar', component: JarComponent },
   { path: 'lip', component: LipComponent },
   { path: 'powder', component: PowderComponent },
-  { path: 'box', component: BoxComponent}
+  { path: 'box', component: BoxComponent},
+  { path: 'portfolio', component: PortfolioComponent }
 ];
 
 @NgModule({

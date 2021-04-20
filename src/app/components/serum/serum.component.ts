@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare const $;
 
 @Component({
   selector: 'app-serum',
@@ -10,6 +11,9 @@ export class SerumComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    $(document).ready(function () {
+      $('.lightbox').topbox();
+    });
   }
 
 }

@@ -1,0 +1,231 @@
+.nav-link {
+    font-family: "Moon";
+}
+.font-moon {
+    font-family: "Moon";
+}
+.xl-menu {
+    @media (max-width: 992px) {
+        display: none;
+    }
+}
+.navbar {
+    @media (min-width: 992px) {
+        display: none;
+    }
+}
+.home-menu {
+    color: black;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px #ffffff;
+    font-size: large;
+    @media (min-width: 1200px) {
+        font-weight: bold;
+        font-size: x-large;
+    }
+    @media (min-width: 992px) {
+        font-weight: bold;
+        font-size: larger;
+    }
+    @media (max-width: 575.98px) {
+        font-weight: bold;
+        font-size: 0.5rem;
+
+        padding: 0.1rem 0.1rem;
+    }
+}
+#content {
+    @media (max-width: 992px) {
+        height: 90vh;
+        overflow-y: auto;
+    }
+}
+.home-menu:hover {
+    color: #ab0d0d !important;
+}
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.title-1 {
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    @media (min-width: 992px) {
+        font-size: 5.5rem;
+    }
+    @media (max-width: 575.98px) {
+        font-size: 2rem;
+    }
+}
+.title-2 {
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    @media (min-width: 992px) {
+        font-size: 4rem;
+    }
+    @media (max-width: 575.98px) {
+        font-size: 1.5rem;
+    }
+}
+.title-3 {
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    @media (min-width: 992px) {
+        font-size: 3rem;
+    }
+    @media (max-width: 575.98px) {
+        font-size: 1.5rem;
+    }
+}
+.title-4 {
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    @media (min-width: 992px) {
+        font-size: 2rem;
+    }
+    @media (max-width: 575.98px) {
+        font-size: 1rem;
+    }
+}
+.title-5 {
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    @media (min-width: 992px) {
+        font-size: 2rem;
+    }
+    @media (max-width: 575.98px) {
+        font-size: 0.7rem;
+    }
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+////////////////////////////////////////////////////////////////////@at-root
+
+//VARIABLES BECAUSE CSS PREPROCESSORS ARE COOL
+$gray: #555;
+$yellow: #f2e968;
+$white: #efefef;
+
+//GET THE GOOGLE FONT SPECIMEN
+// @import url(https://fonts.googleapis.com/css?family=Rubik);
+
+// body,
+// html {
+//   color: #fff;
+//   text-align: center;
+//   background: $white;
+//   font-family: Helvetica, sans-serif;
+//   margin: 0;
+// }
+
+.grid-container {
+  background: $white;
+//   font-family: 'Rubik', sans-serif;
+}
+
+//ENABLE CSS GRID FOR LIFT OFF  🚀
+@supports(display: grid) {
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    
+    //Let the craziness begin!!!
+    grid-template-areas:
+      "header header header"
+      "title title footer"
+      "main main main";
+    @media screen and (max-width: 500px) {
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.3fr 1fr auto 1fr;
+      grid-template-areas: 
+        "header"
+        "title"
+        "main"
+        "footer";
+    }
+  }
+
+//   .grid-item {
+//     color: #fff;
+//     background: skyblue;
+//     padding: 3.5em 1em;
+//     font-size: 1em;
+//     font-weight: 700;
+//   }
+  
+//   .header {
+//     background-color: darken(skyblue, 60%);
+//     grid-area: header;
+//     padding: 1em;
+//   }
+  
+//   .title {
+//     color: $gray;
+//     background-color: lighten(skyblue, 25%);
+//     grid-area: title;
+//   }
+
+  .main {
+    color: lighten($gray, 25%);
+    background-color: lighten(skyblue, 60%);
+    grid-area: main;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  
+  .footer {
+    background-color: darken(skyblue, 10%);
+    grid-area: footer;
+    padding: 0.6em;
+  }
+
+  .items {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    transition: all 0.2s;
+    transform: scale(0.98);
+    will-change: transform;
+    user-select: none;
+    cursor: pointer;
+  }
+
+  .items.active {
+    background: rgba(255,255,255,0.3);
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    transform: scale(1);
+  }
+
+  .item {
+    display: inline-block;
+    // background: skyblue;
+    height: 350px;
+    width: 350px;
+    margin: 0em 1em;
+    @media screen and (max-width: 500px) {
+        height: 150px;
+        width: 150px;
+    }
+  }
+}

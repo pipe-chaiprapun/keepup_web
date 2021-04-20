@@ -18,7 +18,7 @@
           <a class="nav-link home-menu" [routerLink]="['/', 'marketing']" routerLinkActive="active">MARKETING</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link home-menu" href="#">PORTFOLIO</a>
+          <a class="nav-link home-menu" [routerLink]="['/', 'portfolio']" routerLinkActive="active">PORTFOLIO</a>
         </li>
         <li class="nav-item">
           <a class="nav-link home-menu" href="#">CONTACT</a>
@@ -32,7 +32,7 @@
       <h1 class='text-center title-1 mt-4'>การตลาดออนไลน์</h1>
       <h2 class='text-center title-2 font-weight-normal'>เรื่องง่าย ๆ ให้เราช่วยดูแล มีทีมงานซัพพอร์ตคอยช่วยคุณ</h2>
       <br><br>
-      <img class='image' style='width:90%' src='../../../assets/images/marketing/graph.jpg' alt="ยิงแอดให้ยอดขายติดจรวด">
+      <img class='image' id='graph' style='width:90%' [src]='graph' alt="ยิงแอดให้ยอดขายติดจรวด">
       <br><br>
       <div class='row justify-content-center'>
         <div class='col-md-ุ10 col-lg-10 col-xl-10 col-12'>

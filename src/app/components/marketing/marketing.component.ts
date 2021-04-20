@@ -10,6 +10,7 @@ export class MarketingComponent implements OnInit {
   btn1 = '../../../assets/images/marketing/btn1.jpg';
   btn2 = '../../../assets/images/marketing/btn2.jpg';
   btn3 = '../../../assets/images/marketing/btn3.jpg';
+  graph = '../../../assets/images/marketing/graph.jpg';
   constructor() { }
 
   ngOnInit() {
@@ -26,5 +27,8 @@ export class MarketingComponent implements OnInit {
     $('#package3').hover(() => {
       this.btn3 = '../../../assets/images/marketing/btn4.jpg';
     }, () => { this.btn3 = '../../../assets/images/marketing/btn2.jpg'; });
+    $('#graph').hover(() => {
+      this.graph = '../../../assets/images/marketing/graph2.jpg';
+    }, () => { this.graph = '../../../assets/images/marketing/graph.jpg'; });
   }
 }
