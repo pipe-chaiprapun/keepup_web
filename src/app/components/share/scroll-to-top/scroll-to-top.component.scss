@@ -1,0 +1,37 @@
+.scroll-top.on {
+    right: 10px;
+    opacity: 1;
+    z-index: 109;
+}
+.scroll-top:hover {
+    background-color: #000;
+    background-color: rgba(0,0,0,.5);
+}
+.scroll-top {
+    border-radius: 10px;
+    position: fixed;
+    display: -ms-flexbox;
+    display: -ms-flex;
+    display: flex;
+    -ms-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    right: 15px;
+    bottom: 15px;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+    z-index: -1;
+    filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    transition: opacity .4s ease;
+    background-color: #000;
+    background-color: rgba(0,0,0,.2);
+    text-decoration: none;
+}
+i.fa {
+    color: #fff;
+}

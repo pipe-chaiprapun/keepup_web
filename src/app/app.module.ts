@@ -19,6 +19,7 @@ import { JarComponent } from './components/jar/jar.component';
 import { LipComponent } from './components/lip/lip.component';
 import { PowderComponent } from './components/powder/powder.component';
 import { BoxComponent } from './components/box/box.component';
+import { ScrollToTopComponent } from './components/share/scroll-to-top/scroll-to-top.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { BoxComponent } from './components/box/box.component';
     JarComponent,
     LipComponent,
     PowderComponent,
-    BoxComponent
+    BoxComponent,
+    ScrollToTopComponent
   ],
   imports: [
     BrowserModule,
