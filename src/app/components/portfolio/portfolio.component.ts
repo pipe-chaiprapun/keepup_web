@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DeviceDetectorService } from "ngx-device-detector";
 declare const $;
 
 @Component({
@@ -8,16 +9,27 @@ declare const $;
 })
 export class PortfolioComponent implements OnInit {
 
-  constructor() { }
+  constructor(private deviceService: DeviceDetectorService) { }
 
   ngOnInit() {
-    this.activateZadoong();
-    this.activateAmez();
-    this.activateBisutang();
-    this.activatePerl();
-    this.activateMe();
-    this.activateD2();
-    this.activateJhair();
+    this.activateSlide();
+  }
+
+  activateSlide() {
+    console.log(this.deviceService.isDesktop());
+    if (this.deviceService.isDesktop()) {
+      this.activateZadoong();
+      this.activateAmez();
+      this.activateBisutang();
+      this.activatePerl();
+      this.activateMe();
+      this.activateD2();
+      this.activateJhair();
+    } else {
+      $('.items').css({
+        overflowX: 'auto'
+      });
+    }
   }
 
   activateZadoong() {
