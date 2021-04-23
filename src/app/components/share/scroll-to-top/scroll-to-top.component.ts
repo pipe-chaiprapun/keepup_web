@@ -29,7 +29,7 @@ export class ScrollToTopComponent implements OnInit {
     });
 
     $('.scroll-top').click(function () {
-      $('html, body, #content').animate({ scrollTop: 0 }, 'slow');
+      $('#content, html, body').animate({ scrollTop: 0 }, 'slow');
     });
   }
 
