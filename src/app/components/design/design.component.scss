@@ -36,9 +36,12 @@
 }
 #content {
     @media (max-width: 992px) {
-        height: 90vh;
-        overflow-y: auto;
+        margin-top: 56.64px;
     }
+    // @media (max-width: 992px) {
+    //     height: 90vh;
+    //     overflow-y: auto;
+    // }
 }
 .home-menu:hover {
     color: #ab0d0d !important;

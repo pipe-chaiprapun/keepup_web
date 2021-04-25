@@ -47,9 +47,12 @@
     }
 }
 #content {
+    // @media (max-width: 992px) {
+    // height: 90vh;
+    // overflow-y: auto;
+    // }
     @media (max-width: 992px) {
-        height: 90vh;
-        overflow-y: auto;
+        margin-top: 56.64px;
     }
 }
 .home-menu:hover {
@@ -140,9 +143,15 @@
     display: block;
 }
 .carousel {
-    width: 90%;
+    
     margin-left: auto;
     margin-right: auto;
+    @media (min-width: 992px) {
+        width: 90%;
+    }
+    @media (max-width: 575.98px) {
+        width: 100%;
+    }
 }
 .bg-2 {
     // background-image: url('../assets/images/home/head_bg.jpg');
@@ -190,7 +199,7 @@
     }
     @media (max-width: 575.98px) {
         font-weight: bold;
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
 }
 .bg-red {
@@ -226,4 +235,3 @@
     background-size: contain;
     // padding: 15%;
 }
-
