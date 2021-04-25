@@ -26,6 +26,9 @@ export class DesignComponent implements OnInit {
     $('#btn-design4').hover(() => {
       this.btn4 = '../../../assets/images/design/price/btn2.png';
     }, () => { this.btn4 = '../../../assets/images/design/price/btn1.png'; });
+    $(document).ready(function () {
+      $('.lightbox').topbox();
+    });
   }
 
 }
