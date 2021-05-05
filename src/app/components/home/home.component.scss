@@ -213,6 +213,22 @@
         width: 40%;
     }
 }
+#btn-exam{
+    @media (min-width: 992px) {
+        width: 40%;
+    }
+    @media (max-width: 575.98px) {
+        width: 90%;
+    }
+}
+#btn-exam2 {
+    @media (min-width: 992px) {
+        width: 35%;
+    }
+    @media (max-width: 575.98px) {
+        width: 50%;
+    }
+}
 .product-choose {
     background-image: url("../../../assets/images/home/productChoose/border.png");
     background-repeat: no-repeat;
